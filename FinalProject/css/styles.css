@@ -1,0 +1,6 @@
+/* CSS style reset */
+body, header, nav, main, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
