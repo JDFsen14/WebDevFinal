@@ -3,4 +3,34 @@ body, header, nav, main, footer {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	background-color: #d0cfd4;
+
+	/*From the google font page to use imported font*/
+	font-family: 'Comic Neue', cursive;
+}
+
+header img {
+	display: inline-block;
+	top: 0;
+	max-width: 30%;
+	margin: 2% auto;
+}
+
+footer {
+	background-color: #9b989f;
+}
+
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+	
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px), print {
+	header img {
+		max-width: 20%;
+		margin: 3%;
+	}
+
 }
