@@ -10,27 +10,62 @@ body, header, nav, main, footer {
 }
 
 header img {
-	display: inline-block;
+	display: block;
 	top: 0;
-	max-width: 30%;
-	margin: 2% auto;
+	max-width: 40%;
+	margin: 0 auto;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
 }
 
 footer {
 	background-color: #9b989f;
 }
 
+footer h2 {
+	color: #000;
+}
+
+
+
+main {
+	padding: 2%;
+}
+
+main p {
+	font-size: 1.5em;
+}
+
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
-	
+	main p {
+		font-size: 1.2em;
+	}
 }
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
 	header img {
 		max-width: 20%;
-		margin: 3%;
+		margin-left: 3%;
 	}
+
+	nav {
+		float: right;
+		width: 75%;
+		
+	}
+
+	nav li {
+		padding: 2% auto;
+		margin-top: 10%;
+		font-size: 1.5em;
+	}
+
+	
 
 }

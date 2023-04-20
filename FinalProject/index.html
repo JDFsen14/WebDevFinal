@@ -4,6 +4,7 @@
 	<head>
 		<title></title>
 		<meta charset="utf-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.css">
 
 		<!-- Google fonts links-->
@@ -11,37 +12,37 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
 
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	</head>
 	
 	<body>
 
-		<header>
-
-			<img src="images/logo.png" alt="Logo for Website">
-
-		</header>
-		
 		<!-- Bootstrap horizontal navbar -->
-		<nav class="navbar navbar-expand-sm">
+		<nav class="navbar navbar-expand-sm bg-danger">
 			<!-- Hamburger Menu -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" target="#collapseibleNavbar">
-				<span class="navbar-toggler-icon"></span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon bg-dark"></span>
 			</button>
 			<!-- Links -->
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
-					<li class="nav-item">
+					<li class="nav-item bg-light">
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-light" >
 						<a class="nav-link" href="earlyConsoles.html">Earliest Consoles</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-light">
 						<a class="nav-link" href="lateConsoles.html">Newest Consoles</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-light">
 						<a class="nav-link" href="contact.html">Contact Us</a>
 					</li>
 					
@@ -49,25 +50,43 @@
 			</div>
 		</nav>
 
+		<header>
+
+			<img src="images/logo.png" alt="Logo for Website">
+
+		</header>
 		
 		
-		
-		
-		
+
 		
 		<main>
 
+			<div id="container">
+
+				<h2>About Nintendo</h2>
+
+				<p>Nintendo Co., Ltd. is a Japanese multinational video game company headquartered in Kyoto. It develops and releases both video games and video game consoles.
+					Nintendo was founded in 1889 as Nintendo Karuta by craftsman Fusajiro Yamauchi and originally produced handmade hanafuda playing cards.
+					After venturing into various lines of business during the 1960s and acquiring a legal status as a public company, Nintendo distributed its
+					first console, the Color TV-Game, in 1977. It gained international recognition with the release of Donkey Kong in 1981 and the Nintendo Entertainment System and Super Mario Bros. in 1985. </p>
+				<p>Since then, Nintendo has produced some of the most successful consoles in the video game industry, such as the Game Boy, the Super Nintendo Entertainment System, the Nintendo DS, the Wii,
+					and the Switch. It has created numerous major franchises, including Mario, Donkey Kong, The Legend of Zelda, Pokémon, Kirby, Metroid, Fire Emblem, Animal Crossing, Splatoon, Star Fox,
+					Xenoblade Chronicles, and Super Smash Bros. Nintendo's mascot, Mario, is internationally recognized. The company has sold more than 5.4 billion video games and over 800 million hardware
+					units globally as of 2022.</p>
+				<p>Nintendo has multiple subsidiaries in Japan and abroad, in addition to business partners such as the Pokémon Company and HAL Laboratory. Nintendo and its staff have received awards
+					including Emmy Awards for Technology & Engineering, Game Awards, Game Developers Choice Awards, and British Academy Games Awards. It is one of the wealthiest and most valuable
+					companies in the Japanese market. </p>
+			</div>
 			
-		
 		</main>
 		
 		
-		<footer>
+		<footer class="jumbotron bg-danger">
 		
 			<!-- Links for the twitter and facebook logos in footer-->
 			<a href = "https://www.facebook.com" target = "_blank"><img src = "images/facebook-logo.png" alt = "Facebook logo"></a>
 			<a href = "https://www.twitter.com" target = "_blank"><img src = "images/twitter-logo.png" alt = "Twitter logo"></a>
-			<p>Created by: </p>
+			<h2>Created by: Jaren Frandsen, Andrew Smith, Ethan Tenney</h2>
 
 		</footer>
 		
