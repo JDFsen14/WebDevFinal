@@ -11,19 +11,34 @@ body, header, nav, main, footer {
 
 header img {
 	display: block;
+
 	top: 0;
 	max-width: 40%;
 	margin: 0 auto;
+	
 }
 
 header {
 	background-color: #d8e9f0;
 	/* background: linear-gradient(to right, #d8e9f0 75%, #d0cfd4); */
+	display: inline-block;
+	text-align: center;
 }
+
 
 nav a {
 	color: #000;
 	text-decoration: none;
+}
+
+#hamButton {
+	width: 40px;
+}
+
+main img {
+	max-width: 80%;
+	display: block;
+	margin: 0 auto;
 }
 
 footer h2 {
@@ -97,7 +112,13 @@ main p {
 		padding: 2%;
 	}
 
-	
+	nav li {
+		padding: 2% auto;
+		margin: 10% 2% 0;
+		border-radius: 25px;
+		font-size: 1.5em;
+		white-space: nowrap;
+	}
 
 }
 
@@ -106,6 +127,7 @@ main p {
 	header img {
 		max-width: 20%;
 		margin: 0 2%;
+		float: left;
 	}
 
 	nav {
@@ -114,11 +136,7 @@ main p {
 		
 	}
 
-	nav li {
-		padding: 2% auto;
-		margin-top: 10%;
-		font-size: 1.5em;
-	}
+	
 
 	#ninAnimation img {
 		max-width: 15%;
@@ -129,8 +147,17 @@ main p {
 		background: linear-gradient(to right, #d8e9f0 75%, #d0cfd4);
 	}
 
-	
+	main img {
+		float: left;
+		width: 30%;
+	}
 
+	
+	header h1 {
+		text-align: center;
+		padding: 12% 0 5%;
+		font-weight: bold;
+	}
 	
 
 }
