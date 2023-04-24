@@ -25,6 +25,127 @@ header {
 	text-align: center;
 }
 
+/*Jaren's contributions*/
+
+/*Andrew changes*/
+#basicInfo th,
+#basicInfo tr {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+#basicInfo,
+#gameInfo {
+    margin-left: 2%;
+    width: 95%;
+    padding: 1%;
+}
+
+#basicInfo {
+    margin-bottom: 1%;
+}
+
+#gameInfo,
+#basicInfo {
+    background-color: #ddd;
+}
+
+#gameInfo tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+
+#gameInfo th,
+#gameInfo tr {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+aside img {
+    padding: 1%;
+}
+
+#wii,
+#wiiu,
+#switch {
+    display: none;
+}
+
+#moveMario img {
+    display: none;
+}
+
+@-webkit-keyframes jump {
+    0% {
+        bottom: 10%;
+    }
+
+    50% {
+        bottom: 50%;
+    }
+
+    100% {
+        bottom: 10%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 45%;
+    }
+
+    50% {
+        bottom: 72%;
+    }
+
+    100% {
+        bottom: 45%;
+    }
+}
+
+.buttons {
+	margin: 0 auto;
+	display: block;
+	max-width: 35%;
+	margin-bottom: 5%;
+}
+
+.selector {
+	background-color: #FFF;
+	font-weight: bold;
+	font-size: 1.25em;
+	align-items: center;
+	border-radius: 6px;
+	margin: 2% auto;
+	padding: 1px 6px 1px 6px;
+}
+
+button > img,
+button > span {
+	vertical-align: middle;
+	margin: auto;
+}
+
+.selector:hover {
+	border: 1px solid #d0cfd4;
+	padding: 10px;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.selector:active {
+	transform: scale(0.85);
+}
+
+/*End of Jaren's contributions*/
+
+#location img{
+    border: 3px solid red;
+    padding: 1%;
+}
+#location iframe {
+    width: 80%;
+    margin: auto;
+}
 
 nav a {
 	color: #000;
@@ -120,6 +241,15 @@ main p {
 		white-space: nowrap;
 	}
 
+	#location {
+        position: absolute;
+        right: 0;
+        float: right;
+        width: 50%;
+    }
+
+	
+
 }
 
 /* Media Query for Desktop Viewport */
@@ -136,6 +266,36 @@ main p {
 		
 	}
 
+	/*Jaren's contributions*/
+
+	.selector {
+		display: block;
+		margin: 2% auto;
+	}
+
+	/*end of Jaren's contributions*/
+
+	/*Andrew added styling*/
+    #basicInfo,
+    #gameInfo {
+        width: 40%;
+    }
+
+    #moveMario img {
+        display: block;
+        width: 10%;
+        float: right;
+    }
+
+    #moveMario {
+        position: absolute;
+        -webkit-animation: linear alternate;
+        animation: linear alternate;
+        -webkit-animation-name: jump;
+        animation-name: jump;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+    }
 	
 
 	#ninAnimation img {
