@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!-- The basic and first page of our website -->
+<html lang="en">
+
+<head>
+	<title>Late Consoles</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- Google fonts links-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+
+	<!-- Bootstrap horizontal navbar -->
+	<nav class="navbar navbar-expand-sm bg-danger">
+		<!-- Hamburger Menu -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<img src="images/block.webp" id="hamButton">
+		</button>
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item bg-light">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item bg-light">
+					<a class="nav-link" href="earlyConsoles.html">Earliest Consoles</a>
+				</li>
+				<li class="nav-item bg-light">
+					<a class="nav-link" href="lateConsoles.html">Newest Consoles</a>
+				</li>
+				<li class="nav-item bg-light">
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<header>
+
+		<img src="images/logo.png" alt="Logo for Website">
+
+		<h1>Late Consoles</h1>
+
+	</header>
+
+
+
+	<main>
+		<div class="container">
+
+			<!-- lateHome is the home screen for the late consoles-->
+			<!-- this moveMario element is for an animation on the page-->
+			<div id="moveMario">
+				<img src="images/oldMario.png" alt="old mario sprite">
+			</div>
+
+			<div class="lateHome">
+				<h2>Late Nintendo Consoles</h2>
+				<h4>Wii, Wii U, Switch</h4>
+				<h4>2004 - present</h4>
+				<p>The late Nintendo Consoles contain the Wii, Wii U, and Switch.
+					This era began in 2006 with the release of the Wii.
+					Between these three consoles, Nintendo have sold a combined total of over 237 million units.</p>
+
+			</div>
+
+			<!-- The following buttons toggle hide/show for respective div sections-->
+			<button type="button" onclick="showHideWii()">
+				Wii
+			</button>
+
+			<button type=" button" onclick="showHideWiiU()">
+				Wii U
+			</button>
+
+			<button type="button" onclick="showHideSwitch()">
+				Switch
+			</button>
+
+			<!-- wii class contains information about the wii console-->
+			<div id="wii">
+
+				<h2>Wii</h2>
+				<h4>Wii Would Like to Play</h4>
+
+				<div class="grid-container">
+					<p>The Wii is a console Nintendo developed to target a wide demographic of players through "novel
+						gameplay." It is the seventh best-selling console of all time.
+					</p>
+					<p>
+						The Wii Remote is a wireless controller that has motion sensing capability in addition to
+						traditional
+						controls.
+						This allows it to be used as a pointer towards a display, or to recognize gestures the user
+						performs.
+					</p>
+					<p>The Wii was the first Nintendo console with internet capability. It is also capable of playing
+						Gamecube games and connecting Gamecub controllers.
+					</p>
+				</div>
+
+				<aside>
+					<img src="images/wii.png" alt="Picture of a Wii console.">
+				</aside>
+
+
+				<table id="basicInfo">
+					<tr>
+						<th>Release Date</th>
+						<th>November 19, 2006</th>
+					</tr>
+					<tr>
+						<th>Sales</th>
+						<th>101.63 Million</th>
+					</tr>
+					<tr>
+
+					</tr>
+				</table>
+
+				<table id="gameInfo">
+					<tr>
+						<th>Best Selling Wii Games</th>
+					</tr>
+					<tr>
+						<th>Title</th>
+						<th>Sales</th>
+						<th>Release</th>
+					</tr>
+					<tr>
+						<th>Wii Sports</th>
+						<th>82.9 Million</th>
+						<th>November 19, 2006</th>
+					</tr>
+					<tr>
+						<th>Mario Kart Wii</th>
+						<th>37.38 Million</th>
+						<th>April 10, 2008</th>
+					</tr>
+					<tr>
+						<th>Wii Sports Resort</th>
+						<th>33.14 Million</th>
+						<th>June 25, 2009</th>
+					</tr>
+					<tr>
+						<th>New Super Mario Bros Wii</th>
+						<th>30.32 Million</th>
+						<th>November 12, 2009</th>
+					</tr>
+					<tr>
+						<th>Wii Play</th>
+						<th>28.02 Million</th>
+						<th>December 2, 2006</th>
+					</tr>
+				</table>
+
+			</div>
+
+			<!-- wiiu class contains information about the wii console-->
+			<div id="wiiu">
+
+				<h2>Wii U</h2>
+				<h4>How U Will Play Next</h4>
+
+				<div class="grid-container">
+					<p>The Wii U was developed to be the successor to the Wii. It however
+						was nowhere near as successful was the Wii, and is Nintendo's worst
+						selling home console.
+					</p>
+					<p>The Wii U is the first Nintendo console to support HD graphics.
+						The primary controller is the Wii U Gamepad, which contains a touchscreen
+						in addition to standard controller buttons.
+					</p>
+					<p>The Wii U also supports standard Wii controllers, and the Wii U Pro Controller,
+						which is closer to a standard game controller. It is backwards compatible with Wii games.
+					</p>
+
+				</div>
+
+				<aside>
+					<img src="images/wiiu.jpeg" alt="Picture of a Wii U Console.">
+				</aside>
+
+				<table id="basicInfo">
+					<tr>
+						<th>Release Date</th>
+						<th>November 18, 2012</th>
+					</tr>
+					<tr>
+						<th>Sales</th>
+						<th>13.56 Million</th>
+					</tr>
+					<tr>
+
+					</tr>
+				</table>
+
+				<table id="gameInfo">
+					<tr>
+						<th>Best Selling Wii Games</th>
+					</tr>
+					<tr>
+						<th>Title</th>
+						<th>Sales</th>
+						<th>Release</th>
+					</tr>
+					<tr>
+						<th>Mario Kart 8</th>
+						<th>8.46 Million</th>
+						<th>May 29, 2014</th>
+					</tr>
+					<tr>
+						<th>Super Mario 3D World</th>
+						<th>5.88 Million</th>
+						<th>November 21, 2013</th>
+					</tr>
+					<tr>
+						<th>Super Mario Bros U</th>
+						<th>5.82 Million</th>
+						<th>November 18, 2022</th>
+					</tr>
+					<tr>
+						<th>Super Smash Bros for Wii U</th>
+						<th>5.38 Million</th>
+						<th>November 21, 2014</th>
+					</tr>
+					<tr>
+						<th>Nintendo Land</th>
+						<th>5.21 Million</th>
+						<th>November 18, 2012</th>
+					</tr>
+				</table>
+
+			</div>
+
+
+			<!-- switch class contains information about the switch console-->
+			<div id="switch">
+
+				<h2>Switch</h2>
+				<h4>A Switch in Gaming</h4>
+
+				<div class="grid-container">
+					<p>The Nintendo Swtich is a hybrid console, allowing for use in handheld mode
+						and in docked mode. It is Nintendo's best selling home console, and the third
+						best selling game console of all time.
+					</p>
+					<p>The console is a touchscren tablet with controlelrs known as joycons attached.
+						The Joycons feature standard control layout as well as motion detection for
+						gesture controllers. They are removeable from the Switch itself.
+					</p>
+					<p>The goal with the Swith was to build on the Wii U's idea of a tablet
+						gamepad into smomething bigger and better, which they were clearly able to
+						achieve as seen through their sales stats.
+					</p>
+				</div>
+
+				<aside>
+					<img src="images/switch.png" alt="Picture of a Nintendo Switch Console.">
+				</aside>
+
+				<table id="basicInfo">
+					<tr>
+						<th>Release Date</th>
+						<th>March 3, 2017</th>
+					</tr>
+					<tr>
+						<th>Sales</th>
+						<th>122.55 Million</th>
+					</tr>
+					<tr>
+
+					</tr>
+				</table>
+
+				<table id="gameInfo">
+					<tr>
+						<th>Best Selling Wii Games</th>
+					</tr>
+					<tr>
+						<th>Title</th>
+						<th>Sales</th>
+						<th>Release</th>
+					</tr>
+					<tr>
+						<th>Mario Kart 8 Deluxe</th>
+						<th>52.0 Million</th>
+						<th>April 28, 2017</th>
+					</tr>
+					<tr>
+						<th>Animal Crossing: New Horizons</th>
+						<th>41.59 Million</th>
+						<th>March 20, 2020</th>
+					</tr>
+					<tr>
+						<th>Super Smash Bros Ultimate</th>
+						<th>30.44 Million</th>
+						<th>December 7, 2018</th>
+					</tr>
+					<tr>
+						<th>The Legend of Zelda: Breath of the Wild</th>
+						<th>29.00 Million</th>
+						<th>March 3, 2017</th>
+					</tr>
+					<tr>
+						<th>Pokemon Sword and Shield</th>
+						<th>25.68 Million</th>
+						<th>Novembrer 15, 2019</th>
+					</tr>
+				</table>
+
+			</div>
+
+
+
+		</div>
+
+		<div id="ninAnimation">
+			<a href="https://www.nintendo.com"><img src="images/ninLogo.png" alt="Nintendo Logo"></a>
+		</div>
+
+
+	</main>
+
+
+	<footer class="jumbotron bg-danger">
+
+		<h2>Created by: Andrew Smith</h2>
+
+	</footer>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="scripts/scripts.js"></script>
+</body>
+
+</html>
