@@ -1,3 +1,4 @@
+/*Jaren's Javascript functions*/
 var myNewImage = document.getElementById("newImage");
 var newHeader = document.getElementById("newHeader");
 var newText1 = document.getElementById("newContent1");
@@ -60,3 +61,34 @@ function Gamecube() {
     newText3.style.fontsize = "2em";
 }
     
+/*Andrew's Javascript functions*/
+
+/*this function hides and shows the wii div*/
+function showHideWii() {
+    var x = document.getElementById("wii");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+/*this function hides and shows the wii u div*/
+function showHideWiiU() {
+    var x = document.getElementById("wiiu");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+/* this function hides and shows the switch div*/
+function showHideSwitch() {
+    var x = document.getElementById("switch");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
