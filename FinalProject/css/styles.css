@@ -166,6 +166,11 @@ footer h2 {
 	color: #000;
 }
 
+footer a {
+	text-decoration: none;
+	color: #000;
+}
+
 .container {
 	display: block;
 }
