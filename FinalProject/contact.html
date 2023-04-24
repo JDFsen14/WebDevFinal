@@ -2,14 +2,21 @@
 <!-- The basic and first page of our website -->
 <html lang="en">
 	<head>
-		<title></title>
+		<title>Template</title>
 		<meta charset="utf-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.css">
 
 		<!-- Google fonts links-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,24 +25,24 @@
 	<body>
 
 		<!-- Bootstrap horizontal navbar -->
-		<nav class="navbar navbar-expand-sm">
+		<nav class="navbar navbar-expand-sm bg-danger">
 			<!-- Hamburger Menu -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" target="#collapseibleNavbar">
-				<span class="navbar-toggler-icon"></span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<img src="images/block.webp" id="hamButton">
 			</button>
 			<!-- Links -->
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
-					<li class="nav-item">
+					<li class="nav-item bg-light">
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-light" >
 						<a class="nav-link" href="earlyConsoles.html">Earliest Consoles</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-light">
 						<a class="nav-link" href="lateConsoles.html">Newest Consoles</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item bg-light">
 						<a class="nav-link" href="contact.html">Contact Us</a>
 					</li>
 					
@@ -47,20 +54,76 @@
 
 			<img src="images/logo.png" alt="Logo for Website">
 
+			<h1>Contact Us</h1>
+
 		</header>
 		
 		
 		
-		
-		
 		<main>
-		
+
+			
+			<div class="container">
+				
+				<h1>Have any questions or comments? Feel free to contact us using this form:</h1>
+
+				<div id="location">
+					<p>Our location:</p>
+					<img src="images/library.jpeg" alt="aerial view of SUU library">
+
+					<div class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22323.198450082487!2d-113.08634523381991!3d37.67836612278885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b561bdf3f4df7d%3A0xe8a43b8225b747dc!2sSouthern%20Utah%20University!5e0!3m2!1sen!2sus!4v1682358994461!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+
+				</div>
+
+				
+				<form>
+
+					<label for="name">Name: </label>
+					<input type="text" id="name" name="name"><br>
+
+					<label for="email">Email: </label>
+					<input type="email" id="email" name="email" placeholder="username@site.com"><br>
+
+					<label for="phone">Phone (optional):</label>
+  					<input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br>
+
+					<label for="rate">How would you rate your experience with the site?</label><br>
+					<input type="radio" id="bad" name="rate" value="Poor">
+					<label for="bad">Poor</label><br>
+					<input type="radio" id="medium" name="rate" value="Average">
+					<label for="medium">Poor</label><br>
+					<input type="radio" id="good" name="rate" value="Good">
+					<label for="good">Good</label><br>
+
+					<label for="reference">How did you find us?</label>
+					<select name="reference" id="reference">
+						<option value="google">Search Engine</option>
+						<option value="friend">Friend</option>
+						<option value="social">Social Media</option>
+						<option value="other">Other</option>
+					</select><br>
+
+					<label for="questions">Questions or Comments:</label><br>
+					<textarea id="questions" name="quesitons" rows="5" cols="35"></textarea><br>
+					<input type="submit" value="Submit">
+
+				</form>
+
+			</div>
+
+			<div id="ninAnimation">
+				<a href="https://www.nintendo.com"><img src="images/ninLogo.png" alt="Nintendo Logo"></a>
+			</div>
+	
+			
 		</main>
 		
 		
-		<footer>
-
-			<p>Created by: </p>
+		<footer class="jumbotron bg-danger">
+		
+			<h2>Created by: Ethan Tenney</h2>
 
 		</footer>
 		
