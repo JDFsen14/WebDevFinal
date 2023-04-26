@@ -166,6 +166,48 @@ footer h2 {
 	color: #000;
 }
 
+/* Jaren's portfolio styles */
+
+#jarenSUU {
+	border: 2px solid #444;
+	border-radius: 22px;
+	box-shadow: 5px 10px 18px #444;
+	text-align: center;
+	margin: 2% auto;
+	width: 65%;
+	padding: 3%;
+}
+
+#jarenList {
+	margin: 6% 2%;
+	padding: 3%;
+}
+
+.jarenVid {
+	max-width: 100%;
+	margin: 2% auto;
+	border: 2px solid #666;
+	box-shadow: 5px 10px 18px #444;
+}
+
+#webAppImg {
+	float: none;
+	border: 2px solid #666;
+	box-shadow: 5px 10px 18px #444;
+	margin-bottom: 5%;
+}
+
+ol li {
+	margin: 5% 0;
+}
+
+/* End of Jaren's portfolio styles */ 
+
+footer a {
+	text-decoration: none;
+	color: #000;
+}
+
 .container {
 	display: block;
 }
@@ -274,6 +316,16 @@ main p {
 	}
 
 	/*end of Jaren's contributions*/
+
+	/*Jaren's portfolio contributions*/
+
+	#jarenSUU {
+		float: right;
+		margin: 2% 0;
+		width: 35%;
+	}
+
+	/*end of Jaren's portfolio contributions*/
 
 	/*Andrew added styling*/
     #basicInfo,
