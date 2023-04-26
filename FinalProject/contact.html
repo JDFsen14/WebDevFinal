@@ -65,51 +65,57 @@
 			
 			<div class="container">
 				
+				
 				<h1>Have any questions or comments? Feel free to contact us using this form:</h1>
 
-				<div id="location">
-					<p>Our location:</p>
-					<img src="images/library.jpeg" alt="aerial view of SUU library">
+				<div class="grid-container">
+					<!-- Form submission -->
+					<form>
 
-					<div class="map">
+						<label for="name">Name: </label>
+						<input type="text" id="name" name="name"><br>
+
+						<label for="email">Email: </label>
+						<input type="email" id="email" name="email" placeholder="username@site.com"><br>
+
+						<label for="phone">Phone (optional):</label>
+						<input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br>
+
+						<label for="rate">How would you rate your experience with the site?</label><br>
+						<input type="radio" id="bad" name="rate" value="Poor">
+						<label for="bad">Poor</label><br>
+						<input type="radio" id="medium" name="rate" value="Average">
+						<label for="medium">Average</label><br>
+						<input type="radio" id="good" name="rate" value="Good">
+						<label for="good">Good</label><br>
+
+						<label for="reference">How did you find us?</label>
+						<select name="reference" id="reference">
+							<option value="google">Search Engine</option>
+							<option value="friend">Friend</option>
+							<option value="social">Social Media</option>
+							<option value="other">Other</option>
+						</select><br>
+
+						<label for="questions">Questions or Comments:</label><br>
+						<textarea id="questions" name="quesitons" rows="5" cols="35"></textarea><br>
+						<input type="submit" value="Submit">
+
+					</form>
+
+					<!-- Location -->
+					<div style="border: 3px solid red; margin-left: 30px">
+						<p>Our location:</p>
+						<img src="images/library.jpeg" alt="aerial view of SUU library">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22323.198450082487!2d-113.08634523381991!3d37.67836612278885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b561bdf3f4df7d%3A0xe8a43b8225b747dc!2sSouthern%20Utah%20University!5e0!3m2!1sen!2sus!4v1682358994461!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						
 					</div>
 
-				</div>
+				
 
 				
-				<form>
-
-					<label for="name">Name: </label>
-					<input type="text" id="name" name="name"><br>
-
-					<label for="email">Email: </label>
-					<input type="email" id="email" name="email" placeholder="username@site.com"><br>
-
-					<label for="phone">Phone (optional):</label>
-  					<input type="tel" id="phone" name="phone" placeholder="123-456-7890"><br>
-
-					<label for="rate">How would you rate your experience with the site?</label><br>
-					<input type="radio" id="bad" name="rate" value="Poor">
-					<label for="bad">Poor</label><br>
-					<input type="radio" id="medium" name="rate" value="Average">
-					<label for="medium">Average</label><br>
-					<input type="radio" id="good" name="rate" value="Good">
-					<label for="good">Good</label><br>
-
-					<label for="reference">How did you find us?</label>
-					<select name="reference" id="reference">
-						<option value="google">Search Engine</option>
-						<option value="friend">Friend</option>
-						<option value="social">Social Media</option>
-						<option value="other">Other</option>
-					</select><br>
-
-					<label for="questions">Questions or Comments:</label><br>
-					<textarea id="questions" name="quesitons" rows="5" cols="35"></textarea><br>
-					<input type="submit" value="Submit">
-
-				</form>
+					
+				</div>
 
 			</div>
 
